@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit="no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="style.css">
+		
+   <title>Future</title>
+   <title>Responsive Columns</title>
+     
+  </head>
+  
+  <body>
+    
+<nav class="navbar navbar-expand-lg navbar-light bg-warning">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item Method">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Method
+          </a>
+          <div class="dropdown-menu" aria-labelledby="Method">
+			<a class="dropdown-item" href="basics.html#">Basics</a>
+            <a class="dropdown-item" href="process.html#">Process</a>
+          </div>
+        </li>
+        <li class="nav-item Findings">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Findings
+          </a>
+          <div class="dropdown-menu" aria-labelledby="Findings">
+			<a class="dropdown-item" href="findings.html#">Key Features</a>
+            <a class="dropdown-item" href="predictor.html#">Predictor</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="future.html#">Future</a>
+        </li>  
+        
+      </ul>
+    </div>
+  </nav>
+
+<br><br>
+
+<div class="h1 mb-2 bg-white text-dark">Can we predict stock prices?</div>
+
+<div class="container">
+    <div class="col-sm-10">
+      
+    <br><p>Using all prior mentioned features and 2008-2016 AAPL stock prices, our team run various models to predict stock
+    prices from 2016-2018. The KNN model showed the best fit and is displayed below. Since KNN is used for regression here instead
+    of classification, it averaged stock price points in the same neighborhood as opposed to categorizing the prices.
+    There are other models that can also be used for stock prediction, such as the LSTM Model (Long-Short-Term-Memory), which 
+    evaluates datapoints through "Gates", uses some of them, and discards others. </p>
+
+     <br><img src="images/Predictor1.png" alt="Responsive Image" class="mx-auto d-block" style="width:800px; height:400px;">
+     <br><img src="images/Predictor2.png" alt="Responsive Image" class="mx-auto d-block" style="width:800px; height:400px;"> 
+     <br><br><br>
+      
+    </div>
+      
+</div>    
+
+<br>
+
+<style>
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: red;
+	color: white;
+	text-align: center;
+	}
+</style>
+
+<div class="footer">
+	<p>"I've been poor; I've been rich. Given a choice, I choose to be rich" - Wolf of Wall Street</p>
+</div>
+     
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>    
+        	
+ </body>
+
+</html>

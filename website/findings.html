@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit="no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="style.css">
+		
+   <title>Findings</title>
+   <title>Responsive Columns</title>
+     
+  </head>
+  
+  <body>
+    
+<nav class="navbar navbar-expand-lg navbar-light bg-warning">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item Method">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Method
+          </a>
+          <div class="dropdown-menu" aria-labelledby="Method">
+			<a class="dropdown-item" href="basics.html#">Basics</a>
+            <a class="dropdown-item" href="process.html#">Process</a>
+          </div>
+        </li>
+        <li class="nav-item Findings">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Findings
+          </a>
+          <div class="dropdown-menu" aria-labelledby="Findings">
+			<a class="dropdown-item" href="findings.html#">Key Features</a>
+            <a class="dropdown-item" href="predictor.html#">Predictor</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="future.html#">Future</a>
+        </li>  
+        
+      </ul>
+    </div>
+  </nav>
+  
+  <br><br>
+  
+<style>
+	.carousel-item {
+		height: 32rem;
+		background: orange;
+		color: black;
+		position: relative;
+		background-position: center;
+		height: 90%;
+	}
+
+	.container {
+		position: absolute;
+		bottom:0;
+		left:0;
+		right:0;
+		padding-bottom:25px;
+	}	
+
+	.carousel-caption h6 {
+		font-family: Garamond;
+		font-size: 2rem;
+		color: black;
+	}
+
+	.carousel-caption p {
+		font-family: Garamond;
+		font-size: 2rem;
+		color: black;
+	}
+	
+</style>
+
+
+
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="7"></li>
+  </ol>
+  <div class="carousel-inner">
+    
+    <div class="carousel-item active" data-interval="10000">
+      <img src="Images/AMEX-Day.png" class="d-block mx-auto w-100 h-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <p>Timing alone does not impact stock price significantly across all industries in DJ-30.</p>
+      </div>
+    </div>
+    
+    <div class="carousel-item" data-interval="10000">
+      <img src="Images/WMT-CPI.png" class="d-block mx-auto w-100 h-100">
+      <div class="carousel-caption d-none d-md-block">
+        <h6>Consumer Price Index was a mixed fit across DJ-30.</h6>
+        <p>Walmart stock price was not impacted at all by CPI.</p>
+      </div>
+    </div>
+    
+    <div class="carousel-item" data-interval="10000">
+      <img src="Images/Ford-CPI.png" class="d-block mx-auto w-100 h-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+         <p>Ford stock price was moderately impacted by CPI.<br>
+         Desire for discretionary goods likely higher when CPI increases.</p>
+      </div>
+    </div>
+    
+    <div class="carousel-item" data-interval="10000">
+      <img src="Images/AAPL-Band.png" class="d-block mx-auto w-100" h-100 alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h6>Simple Banding only was a great predictor for Apple stock, but nothing else in DJ-30.</h5>
+      </div>
+    </div>
+    
+    <div class="carousel-item" data-interval="10000">
+      <img src="Images/DIS-Volume.png" class="d-block mx-auto w-100" h-100 alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <p>Daily volume (#shares traded) alone does not impact stock price across industries in DJ-30.</p>
+      </div>
+    </div>
+    
+    <div class="carousel-item" data-interval="10000">
+      <img src="Images/GE-Volatility.png" class="d-block mx-auto w-100 h-90" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h6>Volatility by itself was better on average, but still a poor predictor of stock price across all
+        industries in DJ-30.</h6>
+      </div>
+    </div>
+    
+    <div class="carousel-item" data-interval="10000">
+      <img src="Images/GE-Combined.png" class="d-block mx-auto w-100 h-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h6>Combining features however yields much greater fits across all industries in DJ-30.</h6>
+      </div>
+    </div>
+  
+    <div class="carousel-item" data-interval="10000">
+      <img src="Images/PFE-Combined.png" class="d-block mx-auto w-100 h-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h6>Combining features however yields much greater fits across all industries in DJ-30.</h6>
+      </div>
+    </div>
+  
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>  
+
+<style>
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: red;
+	color: white;
+	text-align: center;
+	}
+</style>
+
+<div class="footer">
+	<p>"Show me the money!!" - Jerry Maguire</p>
+</div>
+    
+
+     
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>    
+        	
+ </body>
+
+</html>

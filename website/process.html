@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit="no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="style.css">
+		
+    <title>Process</title>
+    <title>Responsive Columns</title>
+  
+  </head>
+  
+  <body>
+       
+<nav class="navbar navbar-expand-lg navbar-light bg-warning">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item Method">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Method
+          </a>
+          <div class="dropdown-menu" aria-labelledby="Method">
+			<a class="dropdown-item" href="basics.html#">Basics</a>
+            <a class="dropdown-item" href="process.html#">Process</a>
+          </div>
+        </li>
+        <li class="nav-item Findings">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Findings
+          </a>
+          <div class="dropdown-menu" aria-labelledby="Findings">
+			<a class="dropdown-item" href="findings.html#">Key Features</a>
+            <a class="dropdown-item" href="predictor.html#">Predictor</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="future.html#">Future</a>
+        </li>  
+        
+      </ul>
+    </div>
+  </nav>
+
+	<br>
+    <h2>Data Analysis Process</h2>
+    <br>
+  
+  
+<div class="card-group">
+  
+  <div class="card">
+    <img src="images/datapull.png" class="card-img-top" alt="Responsive image">
+    <div class="card-body"><br>
+      <h5 class="card-title">Step 1: Gather Data</h5>
+      <p class="card-text">Used Quandl API to pull stock quotes. Used Dow Jones Index to track large companies with 
+      sufficient stock data, across several major industries</p>
+    </div>
+  </div>
+  
+  <div class="card">
+    <img src="images/features.png" class="card-img-top" alt="Responsive image">
+    <div class="card-body"><br>
+      <h5 class="card-title">Step 2: Build Technical Indicators</h5>
+      <p class="card-text">Add features from previous page into dataframe for stocks. Some of them are displayed here
+      as an example.</p>
+    </div>
+  </div>
+  
+</div>
+  
+<img src="images/funnel.png" alt="Responsive Image" class="mx-auto d-block">
+
+<div class="card-group">
+  
+  <div class="card">
+   
+    <div class="card-body"><br>
+      <h5 class="card-title">Step 3: Run ML Models</h5>
+      <p class="card-text">Start with single and multivariable linear regression to identify significant features that
+      impact the daily closing stock prices</p>
+    </div>
+  </div>
+  
+  <div class="card">
+   
+    <div class="card-body"><br>
+      <h5 class="card-title">Step 4: Try Predictions</h5>
+      <p class="card-text">If possible with existing features, try to use models to predict future stock prices. This
+      would be the eventual goal of using ML for stock trading.</p>
+    </div>
+  </div>
+  
+</div>
+
+	  <br><br><br>			
+
+<style>
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: red;
+	color: white;
+	text-align: center;
+	}
+</style>
+
+	  <div class="footer">
+  			<p>"What I love more than money is other people's money" - Other People's Money</p>
+	  </div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>    
+        	
+
+</body>
+
+</html>
