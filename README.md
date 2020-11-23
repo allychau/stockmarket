@@ -6,7 +6,7 @@
 
 ## Objective
 
-Stock Market Forcasting!
+Stock Market Forecasting!
 
 Using machine learning to examine the effectiveness of the following potential features in accurately predicting future stock market trends: 
 
