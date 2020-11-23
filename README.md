@@ -39,14 +39,23 @@ so that readers can understand what sort of datasets we were creating without be
 These include:
 
 1. Raw data for cleaned data sets for various predictors
+
     [x] OECD_dasta_2008_to_2020.csv
+    
 2. Original stocks dataframe from Quandl
+
     [x] stocks.csv
+    
 3. Our merged dataset from stock data and cleaned predictor data
+
     [x] investment_tech_data
+    
 4. Residual graphs showing machine learning predictor results
+
     [x] Apple_residual_graph.png
+    
     [x] Apple_residual_volatility_graph.png
+    
     [x] Ford_residual_graph.png
 
 ## Images Folder
