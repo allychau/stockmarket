@@ -2,7 +2,7 @@
 
 ### We are the Megalomanics!
 
-![alt text](Images/Mothership.png)
+![alt text](website/Images/Mothership.png)
 
 ## Objective
 
