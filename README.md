@@ -66,4 +66,4 @@ Our /images folder contains graphics for our website that hosts our presentation
 
 We created a github.io hosted website to showcase our work.  Link below:
 
-[insert link later]
+![Click to see our presentation website](https://vk8895.github.io/vk8895-final.github.io/index.html#)
