@@ -31,10 +31,12 @@ We collated the graphs and exported any relevant raw datasets, furnished dataset
 
 ## Data and Graphs
 
-We stored our raw data and output graphs into the /startdata folder
+We stored our raw data and initial output graphs into the /startdata folder
 
-In order to reduce clutter, we decided to remove the majority of our output data, leaving a couple examples of output data
-so that readers can understand what sort of datasets we were creating without being overwhelmed.  
+In order to reduce clutter, we decided to remove the majority of our initial output data, leaving a couple examples of output data
+so that readers can understand what sort of raw datasets and graphs we were creating without being overwhelmed. 
+
+Note that the final graphs and tables are posted in our presentation website. The files in the startdata folder rapid test files and sanity checks.
 
 These include:
 
@@ -46,11 +48,11 @@ These include:
 
     - [x] stocks.csv
     
-3. Our merged dataset from stock data and cleaned predictor data
+3. Our initial merged dataset from stock data and cleaned predictor data
 
     - [x] investment_tech_data
     
-4. Residual graphs showing machine learning predictor results
+4. Initial residual graphs showing machine learning predictor results
 
     - [x] Apple_residual_graph.png
     
